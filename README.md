@@ -19,5 +19,3 @@ You will be joining a team that believes in S.O.L.I.D.D principles. We favour de
 Submissions that follow these principles will be favored since you will fit right in with the current team. If there is a part of the test that blocks you from completing it, then put some comments explaing why it was blocking, and what you would have done if the obstacle was removed.
 
 Good Luck!
-
-[Dhaval Shah : Test completed.]
