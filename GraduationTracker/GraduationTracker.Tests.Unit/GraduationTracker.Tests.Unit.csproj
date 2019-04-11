@@ -55,10 +55,26 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GraduationTracker\GraduationTracker.csproj">
-      <Project>{3f941a8a-25c9-4a01-83ab-0393c50bb1cf}</Project>
-      <Name>GraduationTracker</Name>
+    <ProjectReference Include="..\Graduation.Models\Graduation.Models.csproj">
+      <Project>{c4b8396f-0ba4-49ff-90ac-7733c0a63d9d}</Project>
+      <Name>Graduation.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Graduation.Repository\Graduation.Repository.csproj">
+      <Project>{2cb041a8-9ddd-41ea-a17d-025b0d3258ed}</Project>
+      <Name>Graduation.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Graduation.Utilities\Graduation.Utilities.csproj">
+      <Project>{a6da8d4e-94a5-4d93-86c3-17418fe75592}</Project>
+      <Name>Graduation.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraduationTracker\GraduationTracker.BAL.csproj">
+      <Project>{3f941a8a-25c9-4a01-83ab-0393c50bb1cf}</Project>
+      <Name>GraduationTracker.BAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.0.2\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
